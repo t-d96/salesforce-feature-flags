@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>True indicates that the logic that this is referenced in is ON
+False indicates that the logic that this is referenced in is OFF</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
     <label>Feature Flag</label>
     <pluralLabel>FeatureFlags</pluralLabel>
     <visibility>Public</visibility>
